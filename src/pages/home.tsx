@@ -2,6 +2,7 @@ import { Component } from "solid-js";
 
 const Home: Component = () => {
   return (
+  
     <main class="min-h-screen bg-green-50 text-gray-800 font-sans">
       {/* Hero Section */}
       <section class="bg-green-700 text-white py-20 px-6 text-center">

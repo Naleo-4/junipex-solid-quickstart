@@ -35,6 +35,13 @@ const App: Component = (props: { children: Element }) => {
           </li>
         </ul>
       </nav> */}
+      <header class="flex justify-end items-center px-6 py-4 bg-white shadow-md">
+  <img
+    src="/junipex_logo.png"
+    alt="Junipex Logo"
+    class="h-12 w-auto"
+  />
+</header>
 
       <main 
       // class="max-w-2xl mx-auto h-screen flex flex-col justify-center px-4"
