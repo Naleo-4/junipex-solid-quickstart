@@ -6,7 +6,7 @@ const App: Component = (props: { children: Element }) => {
 
   return (
     <div>
-      <nav class="bg-slate-100 text-slate-900 px-4">
+      {/* <nav class="bg-slate-100 text-slate-900 px-4">
         <ul class="flex items-center">
           <li class="py-2 px-4">
             <A href="/" class="no-underline hover:underline">
@@ -34,10 +34,12 @@ const App: Component = (props: { children: Element }) => {
             />
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
-      <main class="max-w-2xl mx-auto h-screen flex flex-col justify-center px-4">
-        <h1 class="text-5xl mx-auto mb-8 text-slate-600 font-light">Welcome to my Solid app!</h1>
+      <main 
+      // class="max-w-2xl mx-auto h-screen flex flex-col justify-center px-4"
+      >
+        {/* <h1 class="text-5xl mx-auto mb-8 text-slate-600 font-light">Welcome to my Solid app!</h1> */}
         <Suspense>{props.children}</Suspense>
       </main>
     </div>
